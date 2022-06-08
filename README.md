@@ -51,7 +51,7 @@ Uno de estos 2 test, probará el contador de líneas físicas y el otro líneas 
 
 ### Reporte de Pruebas
 
-![Reporte de Pruebas](img\report_test.png)
+![Reporte de Pruebas](img/report_test.png)
 
 ## Documentación
 
@@ -83,7 +83,7 @@ Una vez se realice este comando, se debe buscar en la siguiente ruta "target\sit
 
 ## Diagrama de Clases
 
-![Diagrama de Clases](img\Diagrama_de_Clases.png)
+![Diagrama de Clases](img/Diagrama_de_Clases.png)
 
 ## Construido con
 
