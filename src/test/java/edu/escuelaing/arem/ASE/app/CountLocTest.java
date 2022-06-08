@@ -13,7 +13,7 @@ public class CountLocTest {
     public void deberiaContarLineasPhyArchivo() {
         try {
             File doc = new File("src\\main\\java\\edu\\escuelaing\\arem\\ASE\\app\\CountLoc.java");
-            Assert.assertEquals(55, CountLoc.contador(doc, "phy"));
+            Assert.assertEquals(78, CountLoc.contador(doc, "phy"));
         } catch (Exception e) {
             fail();
         }
@@ -33,7 +33,7 @@ public class CountLocTest {
     public void deberiaContarLineasPhyDir() {
         try {
             File doc = new File("src");
-            Assert.assertEquals(106, CountLoc.contadorDir(doc, "phy"));
+            Assert.assertEquals(129, CountLoc.contadorDir(doc, "phy"));
         } catch (Exception e) {
             fail();
         }
